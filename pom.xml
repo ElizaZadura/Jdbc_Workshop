@@ -19,7 +19,7 @@
 
   <dependencies>
 
-    <!-- TODO: Add MySQL Connector dependency for database connection -->
+    <dependency>  <groupId>mysql</groupId>  <artifactId>mysql-connector-java</artifactId>  <version>8.0.32</version></dependency>
 
   </dependencies>
 

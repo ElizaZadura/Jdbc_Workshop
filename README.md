@@ -32,13 +32,13 @@ Once you have completed the tasks:
 ### 2️⃣ Review the `CityDao` Interface
 - The interface (`CityDao.java`) **already exists**, but you must **implement it in `CityDaoImpl`**.
 - It defines the following methods:
-  - `findById(int id)`
-  - `findByCode(String code)`
-  - `findByName(String name)`
-  - `findAll()`
-  - `save(City city)`
-  - `update(City city)`
-  - `deleteById(int id)`
+    - `findById(int id)`
+    - `findByCode(String code)`
+    - `findByName(String name)`
+    - `findAll()`
+    - `save(City city)`
+    - `update(City city)`
+    - `deleteById(int id)`
 
 📌 **Reference:** The interface is in `se.lexicon.dao.CityDao`.
 
@@ -51,12 +51,12 @@ This class **must implement `CityDao`** and handle **database interactions using
 - **Establish Database Connection:** Use JDBC to connect to MySQL.
 - **Use `PreparedStatement`** for SQL queries to prevent SQL injection.
 - **Implement CRUD operations**:
-  - Fetch a city by ID
-  - Fetch all cities
-  - Fetch by name or country code
-  - Insert a new city
-  - Update an existing city
-  - Delete a city
+    - Fetch a city by ID
+    - Fetch all cities
+    - Fetch by name or country code
+    - Insert a new city
+    - Update an existing city
+    - Delete a city
 
 📌 **Reference:** The `TODO` comment inside `CityDaoImpl.java` **guides you on what to complete**.
 
